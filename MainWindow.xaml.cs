@@ -37,7 +37,6 @@ namespace task2_16._09._23
             stackPanel_bar.Children.Clear();
             int progressBarCount = GetProgressBarCountFromUser();
             CreateAndAddProgressBars(progressBarCount);
-
         }
         private void Timer_Tick(object sender, EventArgs e)
         {
