@@ -7,15 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition Height="0.3*"/>
-        </Grid.RowDefinitions>
-        <StackPanel x:Name="stackPanel_bar" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Orientation="Vertical"/>
-        <StackPanel x:Name="stackPanel_navigation" VerticalAlignment="Center" Grid.Row="1" Orientation="Horizontal">
-            <Button Margin="50 0 50 0" Content="Створити прогрес-бари" Click="CreateProgressBars_Click" HorizontalAlignment="Left" />
-            <Label Content="Кількість прогрес-барів :"  Margin="0 0 10 0"/>
-            <TextBox x:Name="number_TB"  HorizontalAlignment="Center" AutomationProperties.Name="progresBar_TextBox" Width="20" />
-        </StackPanel>
+       
     </Grid>
 </Window>
