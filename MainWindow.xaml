@@ -1,0 +1,21 @@
+﻿<Window x:Class="task2_16._09._23.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task2_16._09._23"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0.3*"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="stackPanel_bar" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Orientation="Vertical"/>
+        <StackPanel x:Name="stackPanel_navigation" VerticalAlignment="Center" Grid.Row="1" Orientation="Horizontal">
+            <Button Margin="50 0 50 0" Content="Створити прогрес-бари" Click="CreateProgressBars_Click" HorizontalAlignment="Left" />
+            <Label Content="Кількість прогрес-барів :"  Margin="0 0 10 0"/>
+            <TextBox x:Name="number_TB"  HorizontalAlignment="Center" AutomationProperties.Name="progresBar_TextBox" Width="20" />
+        </StackPanel>
+    </Grid>
+</Window>
